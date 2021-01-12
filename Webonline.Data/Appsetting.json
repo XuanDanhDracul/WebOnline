@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+        "ShopOnlineDatabase": "Data Source=DESKTOP-0M6RQB0\\DNX;Initial Catalog=Apidemo;Integrated Security=True;"
+    }
+}
