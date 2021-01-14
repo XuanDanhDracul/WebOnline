@@ -10,6 +10,7 @@ namespace Webonline.Data.EF
     public class Khoa
     {
         public int IdKhoa { set; get; }
+        public int KhoaID { set; get; }
         public string TenKhoa { set; get; }
         public ICollection<SinhVien> SinhViens { get; set; }
         public ICollection<MonHocKhoa> MonHocKhoa { set; get; }

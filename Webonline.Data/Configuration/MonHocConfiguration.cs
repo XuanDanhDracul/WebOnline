@@ -14,8 +14,9 @@ namespace Webonline.Data.Configuration
         public void Configure(EntityTypeBuilder<MonHoc> builder)
         {
             builder.ToTable("MonHoc");
-            builder.HasKey(x=>x.ID_Mon);
-            builder.Property(y => y.Ten_MH).IsRequired().HasMaxLength(50).HasColumnName("TenMonHoc");
+            builder.HasKey(x => x.ID_Mon);
+            builder.Property(y => y.Ten_MH).IsRequired().HasMaxLength(50);
+           
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\source\\repos\\WebOnline\\WebOnline.csproj": {}
+    "C:\\Users\\ADMIN\\source\\repos\\Web\\WebOnline\\WebOnline.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\source\\repos\\WebOnline\\WebOnline.csproj": {
+    "C:\\Users\\ADMIN\\source\\repos\\Web\\WebOnline\\WebOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\WebOnline\\WebOnline.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Web\\WebOnline\\WebOnline.csproj",
         "projectName": "WebOnline",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\WebOnline\\WebOnline.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Web\\WebOnline\\WebOnline.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\WebOnline\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Web\\WebOnline\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

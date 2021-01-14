@@ -11,7 +11,6 @@ namespace Webonline.Data.EF
     {
         public int ID_Mon { set; get; }
         public string Ten_MH { set; get; }
-        public int IdKhoa { set; get; }
         public ICollection<Sinh_Mon> SinhMon { set; get; }
         public ICollection<MonHocKhoa> MonHocKhoa { set; get; }
     }
